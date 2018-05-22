@@ -12,7 +12,7 @@ module.exports = {
       key: '~/.ssh/id_rsa',
       repo: 'git@github.com:mountainstar/getjoeapi.git',
       path: '/home/ubuntu/getjoeapi',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'npm install && pm2 startOrRestart'
     }
   }
 }
